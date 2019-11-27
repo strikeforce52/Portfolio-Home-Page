@@ -1,0 +1,13 @@
+---
+layout: portfolio-detail
+title: home page
+img: hero.jpg
+headline: decoration
+description: used as decorative content
+category: Hero
+tags: 
+---
+
+{% if page.img %}
+  <img class="hero" src="{{site.baseurl}}/assets/img/{{page.img}}">
+{% endif %}
