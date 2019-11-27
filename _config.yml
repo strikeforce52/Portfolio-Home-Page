@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "/Portfolio-Home-Page" # the subpath of your site, e.g. /blog
-url: "http://strikeforce52.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://strikeforce52.github.io/Portfolio-Home-Page/." # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: /:categories/:title/
 
