@@ -28,7 +28,11 @@
    </div>
 
 <section class="hero-banner" >
+  {% if page.title == "Home" %}
     <img src="{{ site.baseurl }}/assets/img/hero.jpg" alt="hero image" width="100%">
+  {% else %}
+  <img src="{{ site.baseurl }}/assets/img/Hero2.jpg" alt="hero image" width="100%">
+  {% endif %}
 </section>
 
 </div>
